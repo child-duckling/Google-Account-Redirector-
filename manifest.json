@@ -10,7 +10,7 @@
       "js": [""]
     }
   ],
-    "permissions": ["*://*.google.com/*", "tabs"],
+    "permissions": ["*://*.google.com/*", "tabs", "activeTab", "storage"],
     
 
 }
