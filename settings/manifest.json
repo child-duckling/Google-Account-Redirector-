@@ -7,7 +7,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.google.com/*"],
-      "js": [""]
+      "js": ["rediect.js(redirect(3))"]
     }
   ],
     "permissions": ["*://*.google.com/*", "tabs", "activeTab", "storage"],
